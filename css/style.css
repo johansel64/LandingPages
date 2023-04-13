@@ -1,0 +1,128 @@
+.ejemplo{
+  background-color: grey;
+}
+
+.fondo{
+  background-color: #424949;
+}
+.fondo a{
+  color: #E74C3C;
+}
+.fondo a:hover{
+  color: #ECF0F1;
+}
+
+.ajuste{
+  margin-top: 10px;
+}
+
+.margen{
+  margin-top: 100px;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .ajuste{
+    margin-top: 5px;
+    font-size: small;
+  }
+}
+
+.fondodos {
+  background: url('../img/FondoHeder.jpg')100% no-repeat fixed;
+  padding: 60px;
+}
+
+
+#accion{
+  color: #F0F3F4;
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .margen{
+    margin-top: 25px;
+  }
+  .fondodos {
+    background: url('../img/FondoHeder.jpg')58% no-repeat fixed;
+    padding: 20px;
+  }
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .menu a {
+    font-size: small;
+  }
+}
+
+/*Inicia Hero*/
+.hero-section {
+  background: url("../img/FondoHeder.jpg") 50% no-repeat  ;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+/*Termina Hero*/
+
+#footer {
+  font-size: small;
+  background-color: black;
+  color: white;
+}
+
+#footer a {
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Anton', sans-serif;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .hero-section {
+    height: 30vh;
+  }
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+/*Portafolio*/
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-image-block {
+  margin-bottom: 20px;
+}
+
+.featured-image-block .featured-image-block-title {
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #404040;
+}
+
+.featured-image-block a:hover p {
+  color: #1779ba;
+}
+/*Termina Portafolio*/
